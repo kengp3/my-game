@@ -2,7 +2,7 @@
   <div class="equipment-template">
     <!-- Header -->
     <div class="equipment-header template-section">
-      <h1>{{ frontmatter.name }}</h1>
+      <h1>{{ frontmatter.name ?? '（未命名）' }}</h1>
       <span
         v-if="frontmatter.rarity"
         class="rarity-badge equipment-rarity"

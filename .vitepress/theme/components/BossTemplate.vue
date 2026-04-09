@@ -2,7 +2,7 @@
   <div class="boss-template">
     <!-- Header -->
     <div class="boss-header template-section">
-      <h1>{{ frontmatter.name }}</h1>
+      <h1>{{ frontmatter.name ?? '（未命名）' }}</h1>
       <span
         v-if="frontmatter.difficulty"
         class="difficulty-badge"

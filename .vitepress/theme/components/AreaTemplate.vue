@@ -2,7 +2,7 @@
   <div class="area-template">
     <!-- Header -->
     <div class="area-header template-section">
-      <h1>{{ frontmatter.name }}</h1>
+      <h1>{{ frontmatter.name ?? '（未命名）' }}</h1>
       <span v-if="frontmatter.levelRange" class="level-range">
         Lv. {{ frontmatter.levelRange }}
       </span>
