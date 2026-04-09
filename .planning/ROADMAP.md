@@ -34,7 +34,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **UI hint**: yes
 
 Plans:
-- [ ] 01-01-PLAN.md — VitePress 初始化、主題配色、導航架構、首頁與內容佔位頁
+- [x] 01-01-PLAN.md — VitePress 初始化、主題配色、導航架構、首頁與內容佔位頁
 - [ ] 01-02-PLAN.md — Boss/裝備/區域三種 Vue SFC 內容模板與範例頁面
 - [ ] 01-03-PLAN.md — GitHub Actions 部署 workflow、搜尋與響應式驗證
 
@@ -110,7 +110,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Site Foundation | 0/3 | Planned | - |
+| 1. Site Foundation | 1/3 | In Progress|  |
 | 2. Core Player Journey | 0/3 | Not started | - |
 | 3. Characters & Equipment | 0/3 | Not started | - |
 | 4. Boss Guides & Advanced Combat | 0/3 | Not started | - |
