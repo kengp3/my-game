@@ -15,7 +15,7 @@
       <img
         v-if="frontmatter.image"
         :src="frontmatter.image"
-        :alt="frontmatter.name"
+        :alt="frontmatter.name ?? ''"
       />
       <div v-else class="boss-image-placeholder">
         <span>圖片尚未提供</span>
