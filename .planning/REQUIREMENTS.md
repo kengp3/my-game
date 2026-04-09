@@ -12,7 +12,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **SITE-01**: 使用者可瀏覽 VitePress 靜態網站，具有清晰的頂部導航和側邊欄
 - [ ] **SITE-02**: 使用者可透過中文全文搜尋找到任何攻略內容
 - [ ] **SITE-03**: 網站透過 GitHub Pages 自動建置部署，推送即上線
-- [ ] **SITE-04**: 所有攻略頁面使用統一模板（Boss、裝備、區域各有專屬模板）
+- [x] **SITE-04**: 所有攻略頁面使用統一模板（Boss、裝備、區域各有專屬模板）
 - [x] **SITE-05**: 使用者可在手機/平板/桌面正常瀏覽所有內容（響應式設計）
 
 ### Main Story
@@ -74,7 +74,7 @@ Requirements for initial release. Each maps to roadmap phases.
 | SITE-01 | Phase 1 | Complete |
 | SITE-02 | Phase 1 | Pending |
 | SITE-03 | Phase 1 | Pending |
-| SITE-04 | Phase 1 | Pending |
+| SITE-04 | Phase 1 | Complete |
 | SITE-05 | Phase 1 | Complete |
 | COMBAT-01 | Phase 2 | Pending |
 | STORY-01 | Phase 2 | Pending |
