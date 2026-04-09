@@ -54,8 +54,8 @@ VitePress provides its own typographic scale. The following overrides and additi
 | Role | Size | Weight | Line Height | CSS Variable / Usage |
 |------|------|--------|-------------|----------------------|
 | Body | 16px | 400 (regular) | 1.7 | `--vp-font-family-base` override; default content paragraphs |
-| Label / Caption | 14px | 500 (medium) | 1.5 | Badge text, table headers, frontmatter metadata, sidebar items |
-| Heading (h2/h3) | 20px | 600 (semibold) | 1.3 | Content section headings within templates |
+| Label / Caption | 14px | 400 (regular) | 1.5 | Badge text, table headers, frontmatter metadata, sidebar items |
+| Heading (h2/h3) | 20px | 700 (bold) | 1.3 | Content section headings within templates |
 | Display (h1 / page title) | 28px | 700 (bold) | 1.2 | Page titles, home page hero heading |
 
 **Font family override:**
@@ -69,7 +69,7 @@ VitePress provides its own typographic scale. The following overrides and additi
 }
 ```
 
-**Noto Sans TC loading:** Load via Google Fonts `<link>` in VitePress `head` config. Load weights 400, 500, 600, and 700.
+**Noto Sans TC loading:** Load via Google Fonts `<link>` in VitePress `head` config. Load weights 400 and 700.
 
 ---
 
@@ -359,7 +359,7 @@ Use VitePress built-in breakpoints (do not override):
 
 ### Content Template Tables
 - **Overflow:** Horizontal scroll on mobile for wide tables.
-- **Header:** `--vp-c-bg-soft` background, 600 weight, 14px size.
+- **Header:** `--vp-c-bg-soft` background, 700 weight, 14px size.
 - **Row hover:** Subtle background shift to `--vp-c-bg-soft` with 150ms transition.
 - **Borders:** 1px `--vp-c-divider` between rows.
 
