@@ -12,7 +12,7 @@
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Site Foundation** - VitePress 站台架設、模板系統、部署管線、搜尋與響應式設計
+- [x] **Phase 1: Site Foundation** - VitePress 站台架設、模板系統、部署管線、搜尋與響應式設計 (completed 2026-04-09)
 - [ ] **Phase 2: Core Player Journey** - 戰鬥基礎教學與主線劇情章節攻略
 - [ ] **Phase 3: Characters & Equipment** - 角色職業介紹、裝備圖鑑、強化與製作系統
 - [ ] **Phase 4: Boss Guides & Advanced Combat** - Boss 詳細攻略、高難度挑戰、交叉連結
@@ -110,7 +110,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Site Foundation | 2/3 | In Progress|  |
+| 1. Site Foundation | 3/3 | Complete   | 2026-04-09 |
 | 2. Core Player Journey | 0/3 | Not started | - |
 | 3. Characters & Equipment | 0/3 | Not started | - |
 | 4. Boss Guides & Advanced Combat | 0/3 | Not started | - |

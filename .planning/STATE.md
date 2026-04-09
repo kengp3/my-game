@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: verifying
-stopped_at: "Checkpoint: 01-site-foundation-03-PLAN.md Task 2 human-verify"
-last_updated: "2026-04-09T18:03:09.032Z"
+stopped_at: Completed 01-site-foundation-03-PLAN.md — Phase 01 complete
+last_updated: "2026-04-09T18:06:40.475Z"
 last_activity: 2026-04-09
 progress:
   total_phases: 5
@@ -55,6 +55,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 01-site-foundation P01 | 3 | 2 tasks | 14 files |
 | Phase 01-site-foundation P02 | 8 | 2 tasks | 8 files |
 | Phase 01-site-foundation P03 | 1 | 1 tasks | 2 files |
+| Phase 01-site-foundation P03 | 10 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -69,6 +70,9 @@ Recent decisions affecting current work:
 - [Phase 01-site-foundation]: type:module required in package.json — VitePress 1.x is ESM-only; esbuild fails without it
 - [Phase 01-site-foundation]: Workflow targets master branch (not main) — confirmed from local git branch
 - [Phase 01-site-foundation]: npm ci used in CI for reproducible lockfile-based builds (T-03-02 mitigation)
+- [Phase 01-site-foundation]: Workflow targets master branch (not main) — confirmed from local git branch at execution time
+- [Phase 01-site-foundation]: npm ci used in CI for reproducible lockfile-based builds (T-03-02 mitigation)
+- [Phase 01-site-foundation]: permissions block limits to contents:read, pages:write, id-token:write — principle of least privilege (T-03-01 mitigation)
 
 ### Pending Todos
 
@@ -81,6 +85,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-09T18:03:09.030Z
-Stopped at: Checkpoint: 01-site-foundation-03-PLAN.md Task 2 human-verify
+Last session: 2026-04-09T18:06:40.473Z
+Stopped at: Completed 01-site-foundation-03-PLAN.md — Phase 01 complete
 Resume file: None

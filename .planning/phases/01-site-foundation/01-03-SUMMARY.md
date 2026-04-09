@@ -32,8 +32,8 @@ decisions:
   - npm ci (not npm install) — reproducible lockfile-based install per T-03-02 threat mitigation
   - permissions block limits to contents:read, pages:write, id-token:write — principle of least privilege per T-03-01
 metrics:
-  duration_minutes: 5
-  tasks_completed: 1
+  duration_minutes: 10
+  tasks_completed: 2
   tasks_total: 2
   files_created: 1
   files_modified: 1
@@ -42,7 +42,7 @@ metrics:
 
 # Phase 01 Plan 03: Deploy Workflow and Site Verification Summary
 
-**One-liner:** GitHub Actions CI/CD workflow targeting master branch with least-privilege permissions, npm ci reproducible builds, and concurrency protection — awaiting human verification of search, responsive design, and visual quality.
+**One-liner:** GitHub Actions CI/CD workflow targeting master branch with least-privilege permissions, npm ci reproducible builds, and concurrency protection — human-verified with Chinese search, responsive design, all templates, and theme toggle confirmed working.
 
 ## What Was Built
 
@@ -63,21 +63,21 @@ Updated with `.DS_Store` and `*.local` entries to complement existing `node_modu
 | Task | Commit | Description |
 |------|--------|-------------|
 | 1 | c72d56d | chore(01-03): add GitHub Actions deploy workflow and comprehensive .gitignore |
-| 2 | — | checkpoint:human-verify (pending user sign-off) |
+| 2 | — | checkpoint:human-verify (approved by user 2026-04-10) |
 
-## Checkpoint: Pending Human Verification
+## Human Verification Results (Task 2 — Approved)
 
-Task 2 is a `checkpoint:human-verify` — automated build verification passed (`npm run docs:build` exits 0, build complete in 0.99s). Human verification of the following is pending:
+User approved all verification criteria:
 
-- Chinese search returns results for "沙漠", "Boss", "烈焰之刃"
-- Mobile viewport (375px) shows responsive layout without horizontal overflow
-- All three template examples (Boss, Equipment, Area) render correctly
-- Theme toggle works (dark/light)
-- Navigation is complete (8 items)
+- Chinese search returns results for "沙漠", "Boss", "烈焰之刃" — confirmed working
+- Mobile viewport (375px) shows responsive layout without horizontal overflow — confirmed
+- All three template examples (Boss, Equipment, Area) render correctly — confirmed
+- Theme toggle works (dark default `#1a1a1e`, light mode `#faf8f5`) — confirmed
+- Navigation is complete (8 top-nav items + per-section sidebars) — confirmed
 
 ## Deviations from Plan
 
-None — plan executed exactly as written for Task 1.
+None — plan executed exactly as written.
 
 ## Known Stubs
 
