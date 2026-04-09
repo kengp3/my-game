@@ -49,7 +49,7 @@
       <ul class="equipment-sources">
         <li v-for="source in frontmatter.sources" :key="source.type">
           <strong>{{ source.type }}：</strong>
-          <a v-if="source.link" :href="source.link">{{ source.from }}</a>
+          <a v-if="source.link" :href="withBase(source.link)">{{ source.from }}</a>
           <span v-else>{{ source.from }}</span>
         </li>
       </ul>
@@ -89,7 +89,7 @@
 </template>
 
 <script setup lang="ts">
-import { useData } from 'vitepress'
+import { useData, withBase } from 'vitepress'
 
 const { frontmatter } = useData()
 </script>

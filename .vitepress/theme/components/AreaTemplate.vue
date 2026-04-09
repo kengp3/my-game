@@ -45,7 +45,7 @@
         <tbody>
           <tr v-for="enemy in frontmatter.enemies" :key="enemy.name">
             <td>
-              <a v-if="enemy.link" :href="enemy.link">{{ enemy.name }}</a>
+              <a v-if="enemy.link" :href="withBase(enemy.link)">{{ enemy.name }}</a>
               <span v-else>{{ enemy.name }}</span>
             </td>
             <td>{{ enemy.level ?? '' }}</td>
@@ -107,7 +107,7 @@
       <ul class="area-quests">
         <li v-for="quest in frontmatter.quests" :key="quest.name">
           <span class="quest-type">{{ quest.type }}：</span>
-          <a v-if="quest.link" :href="quest.link">{{ quest.name }}</a>
+          <a v-if="quest.link" :href="withBase(quest.link)">{{ quest.name }}</a>
           <span v-else>{{ quest.name }}</span>
         </li>
       </ul>
@@ -121,7 +121,7 @@
 </template>
 
 <script setup lang="ts">
-import { useData } from 'vitepress'
+import { useData, withBase } from 'vitepress'
 
 const { frontmatter } = useData()
 </script>

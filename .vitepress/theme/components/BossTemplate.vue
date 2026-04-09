@@ -37,7 +37,7 @@
         <div class="template-card">
           <div class="info-label">所在區域</div>
           <div class="info-value">
-            <a v-if="frontmatter.areaLink" :href="frontmatter.areaLink">
+            <a v-if="frontmatter.areaLink" :href="withBase(frontmatter.areaLink)">
               {{ frontmatter.area ?? '未知' }}
             </a>
             <span v-else>{{ frontmatter.area ?? '未知' }}</span>
@@ -55,7 +55,7 @@
           :key="drop.name"
           class="template-card boss-drop-item"
         >
-          <a v-if="drop.link" :href="drop.link">{{ drop.name }}</a>
+          <a v-if="drop.link" :href="withBase(drop.link)">{{ drop.name }}</a>
           <span v-else>{{ drop.name }}</span>
           <span
             v-if="drop.rarity"
@@ -74,7 +74,7 @@
 </template>
 
 <script setup lang="ts">
-import { useData } from 'vitepress'
+import { useData, withBase } from 'vitepress'
 
 const { frontmatter } = useData()
 </script>
