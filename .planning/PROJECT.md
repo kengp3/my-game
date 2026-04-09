@@ -12,7 +12,7 @@
 
 ### Validated
 
-(None yet — ship to validate)
+- [x] Wiki 網站架構 — Validated in Phase 1: Site Foundation (VitePress 站台、導航、模板、搜尋、部署)
 
 ### Active
 
@@ -20,7 +20,7 @@
 - [ ] 戰鬥/Boss 攻略 — 戰鬥技巧、Boss 弱點與擊殺策略
 - [ ] 角色/裝備系統 — 角色建構、裝備推薦與屬性配置
 - [ ] 地圖/隨機內容 — 區域探索指南、隱藏區域與隨機事件說明
-- [ ] Wiki 網站架構 — 可瀏覽的靜態網站或結構化 Markdown 文件集
+- [x] Wiki 網站架構 — 可瀏覽的靜態網站或結構化 Markdown 文件集 (Phase 1 complete)
 
 ### Out of Scope
 
@@ -63,4 +63,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-10 after initialization*
+*Last updated: 2026-04-10 after Phase 1 completion*
