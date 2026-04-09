@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 開始閱讀攻略
-      link: /guide/beginner/introduction
+      link: /guide/beginner/
     - theme: alt
       text: 查看 Boss 攻略
       link: /guide/bosses/
