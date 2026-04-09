@@ -673,22 +673,25 @@ sidebar: {
 
 ---
 
-## Open Questions
+## Open Questions (RESOLVED)
 
 1. **GitHub repository 實際名稱**
    - What we know: 本地目錄名為 `my-game`
    - What's unclear: GitHub 上的 repository 名稱是否也是 `my-game`；是否有自訂網域計畫（D-08 說暫無）
    - Recommendation: 在 `config.ts` 中以 `base: '/my-game/'` 作為預設，部署前確認 GitHub Pages 設定
+   - RESOLVED: 使用 `base: '/my-game/'` 作為預設值（Plan 01-01 Task 1 已設定）。若 GitHub repository 名稱不同，部署前調整 `base` 即可。
 
 2. **main vs master 分支名稱**
    - What we know: 目前 git repo 顯示 `master` 分支（執行 git status 時看到「位於分支 master」）
    - What's unclear: GitHub 遠端是否也是 `master`；是否需要改為 `main`
    - Recommendation: GitHub Actions workflow 的 `on.push.branches` 需配合實際遠端分支名（`master` 或 `main`）
+   - RESOLVED: 依據實際 git 環境使用 `master`。Plan 01-03 workflow 設定 `branches: [master]`。CONTEXT.md D-08 提到「推送 main 分支即部署」為概念性描述，實際以本地 git 分支名稱 `master` 為準。
 
 3. **Intl.Segmenter 瀏覽器支援範圍**
    - What we know: `Intl.Segmenter` 在現代瀏覽器（Chrome 87+, Firefox 78+, Safari 14.1+）中為原生支援
    - What's unclear: 目標受眾是否使用舊版瀏覽器（如 iOS < 14）
    - Recommendation: Phase 1 直接使用；若有舊版支援需求，評估 `unicode-segmenter` npm 套件作為 polyfill
+   - RESOLVED: Phase 1 直接使用原生 `Intl.Segmenter`，不加 polyfill。目標受眾為現代瀏覽器玩家，覆蓋率已足夠（Chrome 87+/Firefox 78+/Safari 14.1+ 皆支援）。若日後有舊版瀏覽器回報問題，再評估 polyfill。
 
 ---
 
