@@ -30,13 +30,13 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. 推送 commit 到 GitHub 後，網站在數分鐘內自動更新上線
   4. 網站包含 Boss、裝備、區域三種內容模板，新頁面可直接套用
   5. 使用者可在手機上正常瀏覽所有頁面，排版不跑版
-**Plans**: TBD
+**Plans**: 3 plans
 **UI hint**: yes
 
 Plans:
-- [ ] 01-01: TBD
-- [ ] 01-02: TBD
-- [ ] 01-03: TBD
+- [ ] 01-01-PLAN.md — VitePress 初始化、主題配色、導航架構、首頁與內容佔位頁
+- [ ] 01-02-PLAN.md — Boss/裝備/區域三種 Vue SFC 內容模板與範例頁面
+- [ ] 01-03-PLAN.md — GitHub Actions 部署 workflow、搜尋與響應式驗證
 
 ### Phase 2: Core Player Journey
 **Goal**: 玩家可以查閱戰鬥基礎操作教學，並按章節順序跟隨主線劇情攻略推進遊戲
@@ -110,7 +110,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Site Foundation | 0/3 | Not started | - |
+| 1. Site Foundation | 0/3 | Planned | - |
 | 2. Core Player Journey | 0/3 | Not started | - |
 | 3. Characters & Equipment | 0/3 | Not started | - |
 | 4. Boss Guides & Advanced Combat | 0/3 | Not started | - |
