@@ -69,16 +69,35 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ## Traceability
 
-(To be populated during roadmap creation)
-
 | Requirement | Phase | Status |
 |-------------|-------|--------|
+| SITE-01 | Phase 1 | Pending |
+| SITE-02 | Phase 1 | Pending |
+| SITE-03 | Phase 1 | Pending |
+| SITE-04 | Phase 1 | Pending |
+| SITE-05 | Phase 1 | Pending |
+| COMBAT-01 | Phase 2 | Pending |
+| STORY-01 | Phase 2 | Pending |
+| STORY-02 | Phase 2 | Pending |
+| CHAR-01 | Phase 3 | Pending |
+| CHAR-02 | Phase 3 | Pending |
+| CHAR-03 | Phase 3 | Pending |
+| CHAR-04 | Phase 3 | Pending |
+| COMBAT-02 | Phase 4 | Pending |
+| COMBAT-03 | Phase 4 | Pending |
+| COMBAT-04 | Phase 4 | Pending |
+| MAP-01 | Phase 5 | Pending |
+| MAP-02 | Phase 5 | Pending |
+| MAP-03 | Phase 5 | Pending |
+| MAP-04 | Phase 5 | Pending |
+| STORY-03 | Phase 5 | Pending |
+| STORY-04 | Phase 5 | Pending |
 
 **Coverage:**
-- v1 requirements: 18 total
-- Mapped to phases: 0
-- Unmapped: 18
+- v1 requirements: 21 total
+- Mapped to phases: 21
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-04-10*
-*Last updated: 2026-04-10 after initial definition*
+*Last updated: 2026-04-10 after roadmap creation*
