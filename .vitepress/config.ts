@@ -50,7 +50,8 @@ export default defineConfig({
         {
           text: 'Boss 攻略',
           items: [
-            { text: 'Boss 一覽', link: '/guide/bosses/' }
+            { text: 'Boss 一覽', link: '/guide/bosses/' },
+            { text: '沙漠守護者', link: '/guide/bosses/example-boss' }
           ]
         }
       ],
@@ -66,7 +67,8 @@ export default defineConfig({
         {
           text: '裝備圖鑑',
           items: [
-            { text: '裝備一覽', link: '/guide/equipment/' }
+            { text: '裝備一覽', link: '/guide/equipment/' },
+            { text: '烈焰之刃', link: '/guide/equipment/example-equipment' }
           ]
         }
       ],
@@ -74,7 +76,8 @@ export default defineConfig({
         {
           text: '地圖探索',
           items: [
-            { text: '地圖一覽', link: '/guide/maps/' }
+            { text: '地圖一覽', link: '/guide/maps/' },
+            { text: '赤血沙漠', link: '/guide/maps/example-area' }
           ]
         }
       ],
