@@ -36,7 +36,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 Plans:
 - [x] 01-01-PLAN.md — VitePress 初始化、主題配色、導航架構、首頁與內容佔位頁
 - [x] 01-02-PLAN.md — Boss/裝備/區域三種 Vue SFC 內容模板與範例頁面
-- [ ] 01-03-PLAN.md — GitHub Actions 部署 workflow、搜尋與響應式驗證
+- [x] 01-03-PLAN.md — GitHub Actions 部署 workflow、搜尋與響應式驗證
 
 ### Phase 2: Core Player Journey
 **Goal**: 玩家可以查閱戰鬥基礎操作教學，並按章節順序跟隨主線劇情攻略推進遊戲
