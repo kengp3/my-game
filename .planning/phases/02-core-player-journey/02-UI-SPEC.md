@@ -5,6 +5,7 @@ status: draft
 shadcn_initialized: false
 preset: none
 created: 2026-04-10
+revised: 2026-04-10
 ---
 
 # Phase 2 — UI Design Contract
@@ -48,6 +49,7 @@ Exceptions:
 - Difficulty badge: 2px 8px padding (xs vertical, sm horizontal) — matches existing `.difficulty-badge` rule in `custom.css`
 - Boss image placeholder height: 200px — inherited from BossTemplate, reused in CombatGuideTemplate image slot
 - Touch targets for chapter nav buttons: minimum 44px height (mobile accessibility standard)
+- New badge classes introduced in Phase 2 (e.g. chapter number badge, area chip): minimum 4px vertical padding (xs token) to meet touch-target readability on mobile.
 
 Source: `custom.css` utility classes (`.template-section`, `.template-section-break`, `.template-card`, `.difficulty-badge`) verified from codebase.
 
@@ -55,7 +57,7 @@ Source: `custom.css` utility classes (`.template-section`, `.template-section-br
 
 ## Typography
 
-All sizes use `Noto Sans TC` (400 regular, 700 bold). VitePress DefaultTheme manages heading hierarchy; these values extend the theme for new Phase 2 components.
+All sizes use `Noto Sans TC` (400 regular, 700 bold). VitePress DefaultTheme manages heading hierarchy; these values extend the theme for new Phase 2 components. Maximum four active font sizes are declared; no size outside this table may be introduced.
 
 | Role | Size | Weight | Line Height |
 |------|------|--------|-------------|
@@ -67,11 +69,11 @@ All sizes use `Noto Sans TC` (400 regular, 700 bold). VitePress DefaultTheme man
 Rules:
 - Body copy (推進路線, 劇情摘要) uses 16px / 400 / 1.6
 - Labels inside `.template-card` (field names like "推薦等級", "涉及區域") use 12px / 700 / uppercase — matches existing `.info-label` rule in BossTemplate
-- Values inside `.template-card` use 15px / 400 — matches existing `.info-value` rule
+- Values inside `.template-card` (`.info-value`) use **16px / 400** — same size as body; visual separation from labels is achieved by context (card background + 12px bold label above) rather than a distinct size tier. Any existing `.info-value` rule declaring 15px must be updated to 16px.
 - Heading h2 rendered by VitePress DefaultTheme; no override required
 - Difficulty/chapter number badge text: 14px / 700 — matches existing `.difficulty-badge` rule
 
-Source: `.info-label` (12px, 700), `.info-value` (15px), `.difficulty-badge` (14px, 700) all verified in `custom.css` and `BossTemplate.vue`.
+Source: `.info-label` (12px, 700), `.difficulty-badge` (14px, 700) verified in `custom.css` and `BossTemplate.vue`. `.info-value` target size is 16px (revision from checker: the prior 15px value was removed to keep the scale at 4 tiers and eliminate the 14px/15px 1px-gap ambiguity).
 
 ---
 
@@ -110,6 +112,8 @@ New components introduced in Phase 2. All follow the established Vue SFC + `useD
 
 Page-level template. Reads frontmatter via `useData()`.
 
+**Primary focal point:** Page title (h1) + difficulty badge — this pair is the first element rendered and sets the context for all subsequent sections.
+
 Rendered sections (in order):
 1. Header — title + difficulty badge (`.difficulty-badge[data-level]`)
 2. Prerequisites block — inline pill list (`.template-card` row)
@@ -123,6 +127,8 @@ Frontmatter fields: `title`, `difficulty`, `prerequisites[]`, `keybindings[]{act
 ### StoryChapterTemplate.vue
 
 Page-level template. Reads frontmatter via `useData()`.
+
+**Primary focal point:** Chapter number badge + chapter name (h1) — this pair is the first element rendered and orients the reader within the narrative sequence before any other content is shown.
 
 Rendered sections (in order):
 1. Chapter header — chapter number badge + chapter name + recommended level
@@ -220,7 +226,7 @@ All copy is in Traditional Chinese (繁體中文) per CLAUDE.md project constrai
 | Primary CTA (chapter pages) | 前往下一章 |
 | Empty state — no keybindings | 按鍵資訊尚未提供，敬請期待。 |
 | Empty state — no boss list | 本章無關鍵 Boss，繼續探索主線。 |
-| Empty state — no areas | 涉及區域資訊尚未填入。 |
+| Empty state — no areas | 涉及區域資訊尚未填入，請待後續更新。 |
 | Empty state — no image | 圖片尚未提供 (inherited from BossTemplate pattern) |
 | Placeholder data warning | 本頁內容為示範用佔位資料，尚未填入真實遊戲資訊。 |
 | Spoiler toggle label (collapsed) | 劇情摘要（點擊展開，含劇透） |
@@ -286,3 +292,12 @@ No component registries used. All components are hand-authored Vue SFCs followin
 | config.ts (codebase) | 3 (lang, base path, sidebar structure) |
 | BossTemplate.vue (codebase) | 4 (useData pattern, withBase pattern, info-label/value sizing, image placeholder) |
 | User input | 0 (all design discretion delegated to Claude per CONTEXT.md) |
+
+## Revision Log
+
+| Date | Change | Reason |
+|------|--------|--------|
+| 2026-04-10 | Typography: removed 15px `.info-value` tier; absorbed into 16px body | Checker blocker: 5 active sizes exceeded 4-tier maximum; 14px/15px 1px gap was not a valid scale step |
+| 2026-04-10 | Copywriting: updated "no areas" empty state to include solution path | Checker recommendation: copy lacked actionable guidance |
+| 2026-04-10 | Visuals: added primary focal point declaration to CombatGuideTemplate and StoryChapterTemplate | Checker recommendation: focal point was unspecified per template |
+| 2026-04-10 | Spacing: added 4px minimum vertical padding note for new Phase 2 badge classes | Checker recommendation: badge vertical padding constraint was implicit, not declared |
