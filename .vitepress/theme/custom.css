@@ -1,0 +1,69 @@
+/* Source: UI-SPEC.md Color section — full CSS variable mapping */
+
+:root {
+  --vp-font-family-base: 'Noto Sans TC', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', ui-monospace, 'Menlo', 'Monaco', 'Consolas', monospace;
+
+  /* Light mode */
+  --vp-c-bg: #faf8f5;
+  --vp-c-bg-alt: #f0ece6;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-bg-soft: #f0ece6;
+  --vp-c-brand-1: #a83520;
+  --vp-c-brand-2: #c5442a;
+  --vp-c-brand-3: #8c2c1a;
+  --vp-c-brand-soft: rgba(168, 53, 32, 0.12);
+  --vp-c-text-1: #2c2a26;
+  --vp-c-text-2: #5c5850;
+  --vp-c-text-3: #8a857c;
+  --vp-c-divider: rgba(44, 42, 38, 0.12);
+}
+
+.dark {
+  --vp-c-bg: #1a1a1e;
+  --vp-c-bg-alt: #141416;
+  --vp-c-bg-elv: #222228;
+  --vp-c-bg-soft: #222228;
+  --vp-c-brand-1: #c5442a;
+  --vp-c-brand-2: #d4553b;
+  --vp-c-brand-3: #b33d26;
+  --vp-c-brand-soft: rgba(197, 68, 42, 0.16);
+  --vp-c-text-1: rgba(235, 230, 220, 0.95);
+  --vp-c-text-2: rgba(235, 230, 220, 0.60);
+  --vp-c-text-3: rgba(235, 230, 220, 0.38);
+  --vp-c-divider: rgba(235, 230, 220, 0.08);
+  --vp-c-gutter: #141416;
+  --vp-c-default-1: #3a3a40;
+  --vp-c-default-2: #303035;
+  --vp-c-default-3: #28282d;
+  --vp-c-default-soft: rgba(235, 230, 220, 0.04);
+}
+
+/* Rarity badge colors */
+.rarity-badge[data-rarity="普通"] { color: #8a857c; }
+.rarity-badge[data-rarity="精良"] { color: #4a9e4a; }
+.rarity-badge[data-rarity="稀有"] { color: #4a7ec5; }
+.rarity-badge[data-rarity="史詩"] { color: #9b59b6; }
+.rarity-badge[data-rarity="傳說"] { color: #d4a843; }
+
+/* Difficulty badge colors */
+.difficulty-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; color: #fff; font-size: 14px; font-weight: 700; }
+.difficulty-badge[data-level="簡單"] { background: #4a9e4a; }
+.difficulty-badge[data-level="普通"] { background: #d4a843; }
+.difficulty-badge[data-level="困難"] { background: #d45a2a; }
+.difficulty-badge[data-level="極難"] { background: #e54040; }
+
+/* Gold highlight utility */
+.gold-highlight { color: #d4a843; }
+.dark .gold-highlight { color: #d4a843; }
+:root .gold-highlight { color: #b8922e; }
+
+/* Content template spacing */
+.template-section { margin-bottom: 32px; }
+.template-section-break { margin-bottom: 48px; }
+.template-card { padding: 16px; background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider); border-radius: 8px; }
+.template-card + .template-card { margin-top: 8px; }
+
+/* Table row hover */
+.vp-doc table tr:hover { background-color: var(--vp-c-bg-soft); transition: background-color 150ms ease; }
+.vp-doc table th { background: var(--vp-c-bg-soft); font-weight: 700; font-size: 14px; }
