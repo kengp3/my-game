@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 02.1-01-PLAN.md
-last_updated: "2026-04-10T13:59:24.521Z"
+stopped_at: Completed 02.1-02-PLAN.md
+last_updated: "2026-04-10T14:03:46.048Z"
 last_activity: 2026-04-10
 progress:
   total_phases: 6
   completed_phases: 2
   total_plans: 11
-  completed_plans: 7
-  percent: 64
+  completed_plans: 8
+  percent: 73
 ---
 
 # Project State
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md (updated 2026-04-10)
 ## Current Position
 
 Phase: 02.1 (real-game-data-research) — EXECUTING
-Plan: 2 of 5
+Plan: 3 of 5
 Status: Ready to execute
 Last activity: 2026-04-10
 
@@ -61,6 +61,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 02-core-player-journey P02 | 3 | 2 tasks | 4 files |
 | Phase 02-core-player-journey P03 | 3 | 2 tasks | 5 files |
 | Phase 02.1 P01 | 2 | 2 tasks | 3 files |
+| Phase 02.1 P02 | 5 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -85,6 +86,8 @@ Recent decisions affecting current work:
 - [Phase 02-core-player-journey]: Sidebar sub-group pattern with collapsed:false for combat tutorials under beginner section
 - [Phase 02.1]: combat-defense.md title changed from 防禦與格擋 to 防禦與招架 to reflect Parry as the real core mechanic
 - [Phase 02.1]: All three combat guide pages now use correct PC keybindings: Ctrl for block, Alt for dodge (was Q and Space in placeholders)
+- [Phase 02.1]: [Phase 02.1]: level null used for Kailok — game does not expose explicit boss levels
+- [Phase 02.1]: [Phase 02.1]: example-*.md file names kept unchanged — content replaced, file identity preserved for cross-links
 
 ### Roadmap Evolution
 
@@ -101,6 +104,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-10T13:59:24.519Z
-Stopped at: Completed 02.1-01-PLAN.md
+Last session: 2026-04-10T14:03:46.046Z
+Stopped at: Completed 02.1-02-PLAN.md
 Resume file: None
