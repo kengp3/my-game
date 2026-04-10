@@ -80,9 +80,9 @@ Plans:
 **UI hint**: yes
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
-- [ ] 03-03: TBD
+- [x] 03-01: TBD
+- [x] 03-02: TBD
+- [x] 03-03: TBD
 
 ### Phase 4: Boss Guides & Advanced Combat
 **Goal**: 玩家可以查閱每個 Boss 的詳細攻略與高難度挑戰技巧，頁面串連相關裝備與區域
