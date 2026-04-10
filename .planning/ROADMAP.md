@@ -53,6 +53,20 @@ Plans:
 - [x] 02-02-PLAN.md — 戰鬥教學內容頁面（基礎操作、連招系統、防禦與格擋）與新手入門索引更新
 - [x] 02-03-PLAN.md — 主線劇情章節頁面（第一至三章含選擇點）、劇情索引更新與側邊欄配置
 
+### Phase 02.1: Real Game Data Research — 從網路搜集赤血沙漠真實遊戲資料，替換所有佔位內容為真實資訊 (INSERTED)
+
+**Goal:** 所有現有攻略頁面的佔位內容替換為真實遊戲資料，劇情章節擴充至真實遊戲的 14 段（序幕+12章），戰鬥教學使用正確鍵位和機制
+**Requirements**: D-01, D-02, D-03, D-04, D-05, D-06, D-07, D-08
+**Depends on:** Phase 2
+**Plans:** 5 plans
+
+Plans:
+- [ ] 02.1-01-PLAN.md — 戰鬥教學三頁替換為真實鍵位和機制（招架核心、觀察學習、9+武器類型）
+- [ ] 02.1-02-PLAN.md — Boss/裝備/區域範例頁替換為真實資料（裂角凱洛克、主之劍、埃爾南德）
+- [ ] 02.1-03-PLAN.md — 序幕新建 + 劇情第1-3章改寫為真實遊戲劇情
+- [ ] 02.1-04-PLAN.md — 劇情第4-8章新建（知識的代價、不速之客、盾牌的裂縫、歸鄉、血色加冕）
+- [ ] 02.1-05-PLAN.md — 劇情第9-12章新建 + config.ts 側邊欄更新 + 所有索引頁更新
+
 ### Phase 3: Characters & Equipment
 **Goal**: 玩家可以查閱完整的角色建構資訊與裝備圖鑑，規劃自己的角色配置
 **Depends on**: Phase 2
@@ -112,6 +126,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 |-------|----------------|--------|-----------|
 | 1. Site Foundation | 3/3 | Complete   | 2026-04-09 |
 | 2. Core Player Journey | 0/3 | Not started | - |
+| 02.1. Real Game Data Research | 0/5 | Not started | - |
 | 3. Characters & Equipment | 0/3 | Not started | - |
 | 4. Boss Guides & Advanced Combat | 0/3 | Not started | - |
 | 5. Maps, Exploration & Side Content | 0/3 | Not started | - |
