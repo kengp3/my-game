@@ -52,6 +52,9 @@
 .difficulty-badge[data-level="普通"] { background: #d4a843; }
 .difficulty-badge[data-level="困難"] { background: #d45a2a; }
 .difficulty-badge[data-level="極難"] { background: #e54040; }
+.difficulty-badge[data-level="初階"] { background: #4a9e4a; }
+.difficulty-badge[data-level="中階"] { background: #d4a843; }
+.difficulty-badge[data-level="進階"] { background: #d45a2a; }
 
 /* Gold highlight utility */
 .gold-highlight { color: #d4a843; }

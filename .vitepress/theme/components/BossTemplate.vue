@@ -136,7 +136,7 @@ const { frontmatter } = useData()
 }
 
 .info-value {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--vp-c-text-1);
 }
 
