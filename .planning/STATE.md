@@ -3,11 +3,11 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: verifying
-stopped_at: Completed 02-03-PLAN.md
-last_updated: "2026-04-10T12:26:00.034Z"
+stopped_at: Phase 02.1 context gathered
+last_updated: "2026-04-10T12:55:34.108Z"
 last_activity: 2026-04-10
 progress:
-  total_phases: 5
+  total_phases: 6
   completed_phases: 2
   total_plans: 6
   completed_plans: 6
@@ -83,6 +83,10 @@ Recent decisions affecting current work:
 - [Phase 02-core-player-journey]: Chapter prev/next navigation driven by sidebar order in config.ts; only chapter 1 sets prev:false
 - [Phase 02-core-player-journey]: Sidebar sub-group pattern with collapsed:false for combat tutorials under beginner section
 
+### Roadmap Evolution
+
+- Phase 02.1 inserted after Phase 2: Real Game Data Research — 從網路搜集赤血沙漠真實遊戲資料，替換所有佔位內容為真實資訊 (URGENT)
+
 ### Pending Todos
 
 None yet.
@@ -94,6 +98,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-10T00:56:11.614Z
-Stopped at: Completed 02-03-PLAN.md
-Resume file: None
+Last session: 2026-04-10T12:55:34.106Z
+Stopped at: Phase 02.1 context gathered
+Resume file: .planning/phases/02.1-real-game-data-research/02.1-CONTEXT.md
