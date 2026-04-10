@@ -76,13 +76,13 @@ Plans:
   2. 使用者可瀏覽完整裝備圖鑑，查看武器、防具、飾品的屬性與取得方式
   3. 使用者可查閱裝備強化和製作系統的完整流程說明
   4. 每個裝備頁面包含取得地點連結（Boss 掉落、商店、製作來源）
-**Plans**: TBD
+**Plans**: 3 plans
 **UI hint**: yes
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
-- [ ] 03-03: TBD
+- [ ] 03-01-PLAN.md — CharacterTemplate.vue 建立、3 個角色頁面（Kliff/Damiane/Oongka）與角色索引
+- [ ] 03-02-PLAN.md — EquipmentTemplate 更新、代表性裝備頁面（武器/防具/飾品）與裝備索引
+- [ ] 03-03-PLAN.md — 精煉與製作系統指南頁、系統索引更新、全 Phase 3 側邊欄配置
 
 ### Phase 4: Boss Guides & Advanced Combat
 **Goal**: 玩家可以查閱每個 Boss 的詳細攻略與高難度挑戰技巧，頁面串連相關裝備與區域
