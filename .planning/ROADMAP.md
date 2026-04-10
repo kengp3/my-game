@@ -46,12 +46,12 @@ Plans:
   1. 使用者可閱讀完整的戰鬥系統教學，理解操作、連招和防禦機制
   2. 使用者可按章節順序瀏覽主線劇情流程，每章有清晰的推進指引
   3. 每章攻略包含關鍵選擇點說明與建議推進順序
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
-- [ ] 02-03: TBD
+- [ ] 02-01-PLAN.md — Vue SFC 模板建立（CombatGuideTemplate、StoryChapterTemplate、ChoicePoint）與全域註冊
+- [ ] 02-02-PLAN.md — 戰鬥教學內容頁面（基礎操作、連招系統、防禦與格擋）與新手入門索引更新
+- [ ] 02-03-PLAN.md — 主線劇情章節頁面（第一至三章含選擇點）、劇情索引更新與側邊欄配置
 
 ### Phase 3: Characters & Equipment
 **Goal**: 玩家可以查閱完整的角色建構資訊與裝備圖鑑，規劃自己的角色配置
