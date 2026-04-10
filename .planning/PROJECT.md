@@ -14,7 +14,7 @@
 
 - [x] Wiki 網站架構 — Validated in Phase 1: Site Foundation (VitePress 站台、導航、模板、搜尋、部署)
 - [x] 戰鬥基礎教學 — Validated in Phase 2: Core Player Journey (基礎操作、連招系統、防禦與格擋三頁教學)
-- [x] 主線劇情攻略 — Validated in Phase 2: Core Player Journey (第一至三章含選擇點與章節導航)
+- [x] 主線劇情攻略 — Validated in Phase 2: Core Player Journey (第一至三章含選擇點與章節導航); 擴充至序章+12章真實遊戲資料 in Phase 02.1
 
 ### Active
 
@@ -64,4 +64,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-10 after Phase 2 completion*
+*Last updated: 2026-04-10 after Phase 02.1 completion — all placeholder content replaced with real Crimson Desert game data*
