@@ -81,7 +81,10 @@ export default defineConfig({
         {
           text: '角色職業',
           items: [
-            { text: '角色職業', link: '/guide/characters/' }
+            { text: '角色職業總覽', link: '/guide/characters/' },
+            { text: '麥克道夫（Kliff）', link: '/guide/characters/kliff' },
+            { text: '黛米安（Damiane）', link: '/guide/characters/damiane' },
+            { text: '烏卡（Oongka）', link: '/guide/characters/oongka' },
           ]
         }
       ],
@@ -89,8 +92,29 @@ export default defineConfig({
         {
           text: '裝備圖鑑',
           items: [
-            { text: '裝備一覽', link: '/guide/equipment/' },
-            { text: '主之劍（Sword of the Lord）', link: '/guide/equipment/example-equipment' }
+            { text: '裝備圖鑑總覽', link: '/guide/equipment/' },
+            {
+              text: '武器',
+              collapsed: false,
+              items: [
+                { text: '主之劍（Sword of the Lord）', link: '/guide/equipment/example-equipment' },
+                { text: '狼之劍（Sword of the Wolf）', link: '/guide/equipment/sword-of-the-wolf' },
+              ]
+            },
+            {
+              text: '防具',
+              collapsed: false,
+              items: [
+                { text: '灰狼皮甲（Grey Wolf Leather Armor）', link: '/guide/equipment/grey-wolf-leather-armor' },
+              ]
+            },
+            {
+              text: '飾品',
+              collapsed: false,
+              items: [
+                { text: '派盧內斯印戒（Pailunese Signet）', link: '/guide/equipment/pailunese-signet' },
+              ]
+            },
           ]
         }
       ],
@@ -107,7 +131,9 @@ export default defineConfig({
         {
           text: '系統機制',
           items: [
-            { text: '系統說明', link: '/guide/systems/' }
+            { text: '系統機制總覽', link: '/guide/systems/' },
+            { text: '精煉系統', link: '/guide/systems/enhancement' },
+            { text: '製作系統', link: '/guide/systems/crafting' },
           ]
         }
       ]
