@@ -30,7 +30,7 @@
 - **D-08:** 缺失資料使用 `::: info 資料待補充` 標記 — 與 Phase 2.1 一致
 
 ### 圖片
-- **D-09:** 從網路搜集角色與裝備圖片 — 從遊戲 Wiki/官網/資料庫搜集現有圖片存到 repo 中
+- **D-09:** ~~從網路搜集角色與裝備圖片~~ — **DEFERRED**: 圖片搜集延後處理，Phase 3 先以 image: null + 佔位文字上線
 
 ### Claude's Discretion
 - CharacterTemplate.vue 的具體 frontmatter 欄位設計
@@ -97,7 +97,7 @@
 <specifics>
 ## Specific Ideas
 
-- 角色與裝備頁面必須附上圖片（從網路搜集），不使用純文字佔位
+- ~~角色與裝備頁面必須附上圖片（從網路搜集），不使用純文字佔位~~ — DEFERRED to follow-up phase
 - 建構推薦卡片需包含推薦裝備連結，實現角色頁↔裝備頁的交叉連結（符合 CHAR-04 要求）
 
 </specifics>
@@ -105,7 +105,7 @@
 <deferred>
 ## Deferred Ideas
 
-None — discussion stayed within phase scope
+- **D-09 圖片搜集**: 從網路搜集角色與裝備圖片存到 repo — 延後處理，Phase 3 以 image: null 佔位先行上線
 
 </deferred>
 

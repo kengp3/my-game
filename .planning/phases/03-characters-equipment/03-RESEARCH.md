@@ -719,20 +719,17 @@ app.component('CharacterTemplate', CharacterTemplate)
 
 ---
 
-## Open Questions
+## Open Questions (RESOLVED)
 
-1. **`example-equipment.md` 的處理策略**
+1. **`example-equipment.md` 的處理策略** — RESOLVED: Strategy A（保留 `example-equipment.md` 檔名，更新內容為主之劍真實資料，確保現有 config.ts sidebar 與 example-boss.md drops link 不斷裂）
    - What we know: 現有檔案 slug 為 `example-equipment`，config.ts sidebar 與 example-boss.md drops link 均引用它
-   - What's unclear: Phase 3 計劃建立真實武器頁（如 `sword-of-the-lord.md`），是否保留 `example-equipment.md` 或重命名
-   - Recommendation: 規劃時明確決定策略 A（保留舊檔更新內容，確保現有連結不斷）或策略 B（重命名並批量更新所有引用）。建議選策略 A 最安全。
+   - Resolution: Plan 02 explicitly preserves the file path and updates content in-place.
 
-2. **裝備頁面的數量規模**
+2. **裝備頁面的數量規模** — RESOLVED: 每類別 3-5 件代表性裝備（早期/中期/強力各一），共約 4 頁。完整圖鑑在後續版本擴充。
    - What we know: 遊戲有 300+ 武器、數十件防具/飾品
-   - What's unclear: Phase 3 實際要建立多少裝備頁（全部 vs. 代表性選樣）
-   - Recommendation: 每類別建立 3-5 件代表性裝備（早期、中期、強力選擇），使用 CHAR-04 cross-link 到 Boss/商店頁
+   - Resolution: Plan 02 creates 4 equipment pages (1 existing + 3 new) covering weapon/armor/accessory categories.
 
-3. **圖片儲存路徑與命名規則**（Claude's Discretion）
-   - Recommendation: `public/images/characters/kliff.jpg`, `public/images/equipment/sword-of-the-lord.jpg` — 與 URL slug 一致的英文命名
+3. **圖片儲存路徑與命名規則** — RESOLVED: D-09 deferred. 圖片搜集延後處理，Phase 3 使用 `image: null` + 佔位文字。路徑規則為 `public/images/characters/{slug}.jpg` 和 `public/images/equipment/{slug}.jpg`，待圖片搜集時使用。
 
 ---
 
