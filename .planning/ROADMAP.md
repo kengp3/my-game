@@ -126,7 +126,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 |-------|----------------|--------|-----------|
 | 1. Site Foundation | 3/3 | Complete   | 2026-04-09 |
 | 2. Core Player Journey | 0/3 | Not started | - |
-| 02.1. Real Game Data Research | 5/5 | Complete   | 2026-04-10 |
+| 02.1. Real Game Data Research | 5/5 | Complete    | 2026-04-10 |
 | 3. Characters & Equipment | 0/3 | Not started | - |
 | 4. Boss Guides & Advanced Combat | 0/3 | Not started | - |
 | 5. Maps, Exploration & Side Content | 0/3 | Not started | - |
