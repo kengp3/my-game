@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 02-01-PLAN.md
-last_updated: "2026-04-10T00:44:28.656Z"
+stopped_at: Completed 02-02-PLAN.md
+last_updated: "2026-04-10T00:50:05.665Z"
 last_activity: 2026-04-10
 progress:
   total_phases: 5
   completed_phases: 1
   total_plans: 6
-  completed_plans: 4
-  percent: 67
+  completed_plans: 5
+  percent: 83
 ---
 
 # Project State
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md (updated 2026-04-10)
 ## Current Position
 
 Phase: 02 (core-player-journey) — EXECUTING
-Plan: 2 of 3
+Plan: 3 of 3
 Status: Ready to execute
 Last activity: 2026-04-10
 
@@ -57,6 +57,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 01-site-foundation P03 | 1 | 1 tasks | 2 files |
 | Phase 01-site-foundation P03 | 10 | 2 tasks | 2 files |
 | Phase 02-core-player-journey P01 | 3 | 2 tasks | 7 files |
+| Phase 02-core-player-journey P02 | 3 | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -76,6 +77,7 @@ Recent decisions affecting current work:
 - [Phase 01-site-foundation]: permissions block limits to contents:read, pages:write, id-token:write — principle of least privilege (T-03-01 mitigation)
 - [Phase 02-core-player-journey]: info-value font-size updated from 15px to 16px in BossTemplate and AreaTemplate scoped styles per UI-SPEC revision
 - [Phase 02-core-player-journey]: ChoicePoint implemented as props-based component for inline reuse within StoryChapterTemplate
+- [Phase 02-core-player-journey]: Combat tutorial pages use identical frontmatter schema with triangular cross-linking via relatedPages
 
 ### Pending Todos
 
@@ -88,6 +90,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-10T00:44:28.654Z
-Stopped at: Completed 02-01-PLAN.md
+Last session: 2026-04-10T00:50:05.663Z
+Stopped at: Completed 02-02-PLAN.md
 Resume file: None

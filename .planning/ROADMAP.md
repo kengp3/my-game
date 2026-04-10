@@ -50,7 +50,7 @@ Plans:
 
 Plans:
 - [x] 02-01-PLAN.md — Vue SFC 模板建立（CombatGuideTemplate、StoryChapterTemplate、ChoicePoint）與全域註冊
-- [ ] 02-02-PLAN.md — 戰鬥教學內容頁面（基礎操作、連招系統、防禦與格擋）與新手入門索引更新
+- [x] 02-02-PLAN.md — 戰鬥教學內容頁面（基礎操作、連招系統、防禦與格擋）與新手入門索引更新
 - [ ] 02-03-PLAN.md — 主線劇情章節頁面（第一至三章含選擇點）、劇情索引更新與側邊欄配置
 
 ### Phase 3: Characters & Equipment
