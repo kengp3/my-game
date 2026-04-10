@@ -34,7 +34,16 @@ export default defineConfig({
         {
           text: '新手入門',
           items: [
-            { text: '新手指南', link: '/guide/beginner/' }
+            { text: '新手指南', link: '/guide/beginner/' },
+            {
+              text: '戰鬥教學',
+              collapsed: false,
+              items: [
+                { text: '基礎操作', link: '/guide/beginner/combat-basics' },
+                { text: '連招系統', link: '/guide/beginner/combat-combos' },
+                { text: '防禦與格擋', link: '/guide/beginner/combat-defense' },
+              ]
+            }
           ]
         }
       ],
@@ -42,7 +51,10 @@ export default defineConfig({
         {
           text: '主線劇情',
           items: [
-            { text: '主線劇情', link: '/guide/story/' }
+            { text: '主線總覽', link: '/guide/story/' },
+            { text: '第一章：沙漠覺醒', link: '/guide/story/chapter-1' },
+            { text: '第二章：赤血試煉', link: '/guide/story/chapter-2' },
+            { text: '第三章：沙漠之心', link: '/guide/story/chapter-3' },
           ]
         }
       ],
