@@ -41,7 +41,7 @@ export default defineConfig({
               items: [
                 { text: '基礎操作', link: '/guide/beginner/combat-basics' },
                 { text: '連招系統', link: '/guide/beginner/combat-combos' },
-                { text: '防禦與格擋', link: '/guide/beginner/combat-defense' },
+                { text: '防禦與招架', link: '/guide/beginner/combat-defense' },
               ]
             }
           ]
@@ -52,9 +52,19 @@ export default defineConfig({
           text: '主線劇情',
           items: [
             { text: '主線總覽', link: '/guide/story/' },
-            { text: '第一章：沙漠覺醒', link: '/guide/story/chapter-1' },
-            { text: '第二章：赤血試煉', link: '/guide/story/chapter-2' },
-            { text: '第三章：沙漠之心', link: '/guide/story/chapter-3' },
+            { text: '序幕：黑夜突襲', link: '/guide/story/chapter-prologue' },
+            { text: '第一章：初次相遇', link: '/guide/story/chapter-1' },
+            { text: '第二章：金色的貪欲', link: '/guide/story/chapter-2' },
+            { text: '第三章：嚎叫丘', link: '/guide/story/chapter-3' },
+            { text: '第四章：知識的代價', link: '/guide/story/chapter-4' },
+            { text: '第五章：不速之客', link: '/guide/story/chapter-5' },
+            { text: '第六章：盾牌的裂縫', link: '/guide/story/chapter-6' },
+            { text: '第七章：歸鄉', link: '/guide/story/chapter-7' },
+            { text: '第八章：血色加冕', link: '/guide/story/chapter-8' },
+            { text: '第九章：沙漠聖者', link: '/guide/story/chapter-9' },
+            { text: '第十章：反擊', link: '/guide/story/chapter-10' },
+            { text: '第十一章：真相與現實', link: '/guide/story/chapter-11' },
+            { text: '第十二章：深淵', link: '/guide/story/chapter-12' },
           ]
         }
       ],
@@ -63,7 +73,7 @@ export default defineConfig({
           text: 'Boss 攻略',
           items: [
             { text: 'Boss 一覽', link: '/guide/bosses/' },
-            { text: '沙漠守護者', link: '/guide/bosses/example-boss' }
+            { text: '裂角凱洛克（Kailok）', link: '/guide/bosses/example-boss' }
           ]
         }
       ],
@@ -80,7 +90,7 @@ export default defineConfig({
           text: '裝備圖鑑',
           items: [
             { text: '裝備一覽', link: '/guide/equipment/' },
-            { text: '烈焰之刃', link: '/guide/equipment/example-equipment' }
+            { text: '主之劍（Sword of the Lord）', link: '/guide/equipment/example-equipment' }
           ]
         }
       ],
@@ -89,7 +99,7 @@ export default defineConfig({
           text: '地圖探索',
           items: [
             { text: '地圖一覽', link: '/guide/maps/' },
-            { text: '赤血沙漠', link: '/guide/maps/example-area' }
+            { text: '埃爾南德（Hernand）', link: '/guide/maps/example-area' }
           ]
         }
       ],

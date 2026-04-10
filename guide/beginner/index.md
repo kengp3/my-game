@@ -15,7 +15,7 @@ title: 新手入門
 |------|------|------|
 | [基礎操作](/guide/beginner/combat-basics) | 初階 | 移動攻擊閃避等基本操作 |
 | [連招系統](/guide/beginner/combat-combos) | 中階 | 輕重攻擊組合空中連招閃避攻擊 |
-| [防禦與格擋](/guide/beginner/combat-defense) | 中階 | 舉盾完美格擋完美閃避技巧 |
+| [防禦與招架](/guide/beginner/combat-defense) | 中階 | 招架反制、格擋、閃避、掌擊技巧 |
 
 ::: tip 建議閱讀順序
 先從「基礎操作」開始，熟悉移動和攻擊後再學習連招和防禦技巧。
