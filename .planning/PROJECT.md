@@ -13,11 +13,12 @@
 ### Validated
 
 - [x] Wiki 網站架構 — Validated in Phase 1: Site Foundation (VitePress 站台、導航、模板、搜尋、部署)
+- [x] 戰鬥基礎教學 — Validated in Phase 2: Core Player Journey (基礎操作、連招系統、防禦與格擋三頁教學)
+- [x] 主線劇情攻略 — Validated in Phase 2: Core Player Journey (第一至三章含選擇點與章節導航)
 
 ### Active
 
-- [ ] 主線劇情/任務攻略 — 劇情流程說明與建議推進順序
-- [ ] 戰鬥/Boss 攻略 — 戰鬥技巧、Boss 弱點與擊殺策略
+- [ ] Boss 進階攻略 — Boss 弱點與擊殺策略、高難度挑戰技巧
 - [ ] 角色/裝備系統 — 角色建構、裝備推薦與屬性配置
 - [ ] 地圖/隨機內容 — 區域探索指南、隱藏區域與隨機事件說明
 - [x] Wiki 網站架構 — 可瀏覽的靜態網站或結構化 Markdown 文件集 (Phase 1 complete)
@@ -63,4 +64,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-10 after Phase 1 completion*
+*Last updated: 2026-04-10 after Phase 2 completion*
