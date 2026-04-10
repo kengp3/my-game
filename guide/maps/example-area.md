@@ -1,49 +1,62 @@
 ---
 layout: doc
-name: 赤血沙漠
-description: 一片被血色砂塵覆蓋的廣闊荒原，傳說中封印著遠古力量。等級較高的冒險者才能在此生存。
-levelRange: "40-50"
+name: 埃爾南德（Hernand）
+description: 遊戲起始區域，歐式高幻想風格的翠綠田野。埃爾南德是灰鬃傭兵團的根據地，也是玩家踏入帕衛爾大陸的第一站。
+levelRange: "起始區域"
 enemies:
-  - name: 沙漠蠍
-    level: Lv.40
-  - name: 赤血魔像
-    level: Lv.43
-  - name: 沙漠守護者
-    level: Lv.45
+  - name: 金葉商會士兵
+    level: 第一章敵人
+  - name: 裂角凱洛克（Kailok the Hornsplitter）
+    level: 第一章 Boss
     link: /guide/bosses/example-boss
 npcs:
-  - name: 營地商人
-    location: 赤血沙漠營地入口
-    services: 補給品販售、裝備鑑定
-  - name: 鍛造大師
-    location: 赤血沙漠營地中心
-    services: 武器強化、傳說裝備製作
+  - name: 達里亞（Dahlia）
+    location: 埃爾南德旅館
+    services: 旅館老闆、劇情 NPC
+  - name: 圖爾納利（Turnali）
+    location: 埃爾南德鍛造所
+    services: 鍛造師、武器精煉
 chests:
-  - location: 西北方廢墟角落
-    contents: 赤血結晶 ×2、沙漠礦石 ×5
-  - location: 沙漠守護者巢穴附近
-    contents: 金幣 500、強化石 ×1（隱藏寶箱，需鑰匙）
+  - location: 城堡周圍
+    contents: 資料待確認（散落於城堡、莊園、廢墟、聖所）
+  - location: 藍山莊園（Bluemont Manor）附近
+    contents: 資料待確認
 hiddenAreas:
-  - name: 遠古封印之間
-    description: 位於沙漠中央地底，封印著遠古惡魔的力量。完成主線劇情後解鎖。
-    entryMethod: 在沙漠中央的石柱上放置「遠古之鑰」（主線第七章獲得）
+  - name: 隱藏古代神殿
+    description: 發現並清理後可啟動快速旅行點。初期消耗稀有資源「以太石」。
+    entryMethod: 探索埃爾南德地區時自然發現，需擊敗守護怪物後啟動。
 quests:
-  - name: 守護者的試煉
+  - name: 序幕主線
     type: 主線
-    link: null
-  - name: 鍛造大師的委託
-    type: 支線
-    link: null
+    link: /guide/story/chapter-1
+  - name: 第一章：初次相遇
+    type: 主線
+    link: /guide/story/chapter-1
 ---
 
 <AreaTemplate />
 
 ## 探索建議
 
-初次進入赤血沙漠時，建議先在營地附近熟悉環境，避免深入中央地帶遭遇高等怪物。此區域的地形複雜，沙塵暴天氣會降低視野並增加移速懲罰，出發前確認天氣預報。
+埃爾南德是赤血沙漠的起始區域，歐式高幻想風格的翠綠田野構成了遊戲的第一印象。主要城鎮為埃爾南德城（Hernand City），內有城堡、商店、鍛造所和旅館。建議初次進入時先探索城鎮設施，與 NPC 對話了解世界觀。
 
-## 隱藏物品提示
+## 重要地點
 
-- 沙漠中散落的紅色石塊有機率隱藏寶藏，嘗試互動
-- 夜間（遊戲內時間 20:00-04:00）出現特殊敵人「赤月魔像」，掉落稀有材料
-- 西部廢墟深處有一面可互動的石壁，擊打特定磚塊可進入隱藏房間
+- **埃爾南德城（Hernand City）** — 主要城鎮，含城堡、商店、鍛造所、旅館
+- **薩拉松研究所（Scholastone Institute）** — 學術機構
+- **藍山莊園（Bluemont Manor）** — 重要建築，第一章劇情相關地點
+- **葛籣布萊特大宅** — 第二章相關地點
+
+## 勢力分布
+
+- **灰鬃傭兵團** — 主角麥克道夫所屬勢力，在埃爾南德設有根據地
+- **金葉商會（Goldleaf Merchant Guild）** — 第一章主要敵對勢力，首領為裂角凱洛克
+- **塞勒斯特家族、格雷斯家族** — 區域內貴族勢力
+
+## 快速旅行
+
+埃爾南德區域的快速旅行需親自發現並清理古代神殿後啟動。初期消耗稀有資源「以太石」，建議節約使用。
+
+::: info 資料待補充
+寶箱具體位置與內容物尚待收集完整資料，後續補充。
+:::
