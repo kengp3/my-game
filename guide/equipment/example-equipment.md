@@ -24,8 +24,10 @@ enhancement:
 builds:
   - name: 劍盾戰士
     description: 搭配盾牌使用，均衡攻守。新手推薦配置，格擋消耗體力較低。
+    characterLink: /guide/characters/kliff
   - name: 風斬型
     description: 利用深淵核心附加的風斬能力進行遠程投射攻擊，適合中距離戰鬥。
+    characterLink: /guide/characters/kliff
 ---
 
 <EquipmentTemplate />
