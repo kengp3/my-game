@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: verifying
-stopped_at: Phase 2 UI-SPEC approved
-last_updated: "2026-04-09T18:51:35.175Z"
-last_activity: 2026-04-09
+status: executing
+stopped_at: Completed 02-01-PLAN.md
+last_updated: "2026-04-10T00:44:28.656Z"
+last_activity: 2026-04-10
 progress:
   total_phases: 5
   completed_phases: 1
-  total_plans: 3
-  completed_plans: 3
-  percent: 100
+  total_plans: 6
+  completed_plans: 4
+  percent: 67
 ---
 
 # Project State
@@ -21,14 +21,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-10)
 
 **Core value:** 提供玩家一站式完整攻略，讓任何進度的玩家都能找到所需資訊順利通關
-**Current focus:** Phase 01 — Site Foundation
+**Current focus:** Phase 02 — core-player-journey
 
 ## Current Position
 
-Phase: 2
-Plan: Not started
-Status: Phase complete — ready for verification
-Last activity: 2026-04-09
+Phase: 02 (core-player-journey) — EXECUTING
+Plan: 2 of 3
+Status: Ready to execute
+Last activity: 2026-04-10
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -56,6 +56,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 01-site-foundation P02 | 8 | 2 tasks | 8 files |
 | Phase 01-site-foundation P03 | 1 | 1 tasks | 2 files |
 | Phase 01-site-foundation P03 | 10 | 2 tasks | 2 files |
+| Phase 02-core-player-journey P01 | 3 | 2 tasks | 7 files |
 
 ## Accumulated Context
 
@@ -73,6 +74,8 @@ Recent decisions affecting current work:
 - [Phase 01-site-foundation]: Workflow targets master branch (not main) — confirmed from local git branch at execution time
 - [Phase 01-site-foundation]: npm ci used in CI for reproducible lockfile-based builds (T-03-02 mitigation)
 - [Phase 01-site-foundation]: permissions block limits to contents:read, pages:write, id-token:write — principle of least privilege (T-03-01 mitigation)
+- [Phase 02-core-player-journey]: info-value font-size updated from 15px to 16px in BossTemplate and AreaTemplate scoped styles per UI-SPEC revision
+- [Phase 02-core-player-journey]: ChoicePoint implemented as props-based component for inline reuse within StoryChapterTemplate
 
 ### Pending Todos
 
@@ -85,6 +88,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-09T18:51:35.174Z
-Stopped at: Phase 2 UI-SPEC approved
-Resume file: .planning/phases/02-core-player-journey/02-UI-SPEC.md
+Last session: 2026-04-10T00:44:28.654Z
+Stopped at: Completed 02-01-PLAN.md
+Resume file: None

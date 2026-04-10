@@ -17,14 +17,14 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Main Story
 
-- [ ] **STORY-01**: 使用者可按章節順序查閱主線劇情流程與推進指引
-- [ ] **STORY-02**: 每章攻略包含關鍵選擇點說明與建議推進順序
+- [x] **STORY-01**: 使用者可按章節順序查閱主線劇情流程與推進指引
+- [x] **STORY-02**: 每章攻略包含關鍵選擇點說明與建議推進順序
 - [ ] **STORY-03**: 使用者可查閱所有支線任務的觸發條件、流程和獎勵
 - [ ] **STORY-04**: 使用者可查閱隱藏任務和彩蛋的觸發條件與完成方式
 
 ### Combat & Bosses
 
-- [ ] **COMBAT-01**: 使用者可閱讀戰鬥系統基礎教學（操作、連招、防禦機制）
+- [x] **COMBAT-01**: 使用者可閱讀戰鬥系統基礎教學（操作、連招、防禦機制）
 - [ ] **COMBAT-02**: 使用者可查閱每個 Boss 的詳細攻略（弱點、攻擊模式、推薦裝備）
 - [ ] **COMBAT-03**: 使用者可查閱高難度挑戰的專門攻略與技巧
 - [ ] **COMBAT-04**: 每個 Boss 攻略頁連結到相關掉落裝備和所在區域
@@ -76,9 +76,9 @@ Requirements for initial release. Each maps to roadmap phases.
 | SITE-03 | Phase 1 | Complete |
 | SITE-04 | Phase 1 | Complete |
 | SITE-05 | Phase 1 | Complete |
-| COMBAT-01 | Phase 2 | Pending |
-| STORY-01 | Phase 2 | Pending |
-| STORY-02 | Phase 2 | Pending |
+| COMBAT-01 | Phase 2 | Complete |
+| STORY-01 | Phase 2 | Complete |
+| STORY-02 | Phase 2 | Complete |
 | CHAR-01 | Phase 3 | Pending |
 | CHAR-02 | Phase 3 | Pending |
 | CHAR-03 | Phase 3 | Pending |
