@@ -415,17 +415,17 @@ next:
 
 ---
 
-## Open Questions
+## Open Questions (RESOLVED)
 
 1. **ChoicePoint rendering approach**
    - What we know: D-05 requires a "choice box" component with options, consequences, and a collapsible spoiler area
    - What's unclear: Whether choices data should live in frontmatter (parsed by StoryChapterTemplate) or be called inline in the Markdown body as `<ChoicePoint :choices="[...]" />`
-   - Recommendation: Keep choices in frontmatter for consistency with the established template pattern. StoryChapterTemplate renders ChoicePoint internally. This avoids requiring content authors to write Vue template syntax in Markdown.
+   - RESOLVED: Keep choices in frontmatter for consistency with the established template pattern. StoryChapterTemplate renders ChoicePoint internally. This avoids requiring content authors to write Vue template syntax in Markdown.
 
 2. **Number of example chapters to create**
    - What we know: D-07 says Phase 2 focuses on structure/templates, not real data
    - What's unclear: Whether 1, 2, or 3 example chapters best demonstrates the chapter navigation (prev/next) UX
-   - Recommendation: Create 3 chapters minimum — this demonstrates working prev/next navigation for both the middle chapter (has both prev and next) and validates the sidebar ordering. 3 chapters is the minimum to show a real navigation sequence.
+   - RESOLVED: Create 3 chapters minimum — this demonstrates working prev/next navigation for both the middle chapter (has both prev and next) and validates the sidebar ordering. 3 chapters is the minimum to show a real navigation sequence.
 
 ---
 
