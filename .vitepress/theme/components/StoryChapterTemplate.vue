@@ -28,9 +28,14 @@
     <div v-if="frontmatter.bosses?.length" class="template-section">
       <h2>關鍵 Boss</h2>
       <div class="boss-links">
-        <a v-for="boss in frontmatter.bosses" :key="boss.name" :href="withBase(boss.link)" class="boss-link template-card">
-          {{ boss.name }}
-        </a>
+        <template v-for="boss in frontmatter.bosses" :key="boss.name">
+          <a v-if="boss.link" :href="withBase(boss.link)" class="boss-link template-card">
+            {{ boss.name }}
+          </a>
+          <span v-else class="boss-link boss-link-pending template-card">
+            {{ boss.name }}
+          </span>
+        </template>
       </div>
     </div>
     <div v-else class="template-section empty-state">
@@ -123,6 +128,12 @@ const { frontmatter } = useData()
 
 .boss-link:hover {
   text-decoration: underline;
+}
+
+.boss-link-pending {
+  color: var(--vp-c-text-2);
+  cursor: default;
+  font-style: italic;
 }
 
 .empty-state p {
