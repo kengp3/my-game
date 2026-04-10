@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: verifying
-stopped_at: Phase 02.1 context gathered
-last_updated: "2026-04-10T12:55:34.108Z"
+status: executing
+stopped_at: Completed 02.1-01-PLAN.md
+last_updated: "2026-04-10T13:59:24.521Z"
 last_activity: 2026-04-10
 progress:
   total_phases: 6
   completed_phases: 2
-  total_plans: 6
-  completed_plans: 6
-  percent: 100
+  total_plans: 11
+  completed_plans: 7
+  percent: 64
 ---
 
 # Project State
@@ -21,13 +21,13 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-10)
 
 **Core value:** 提供玩家一站式完整攻略，讓任何進度的玩家都能找到所需資訊順利通關
-**Current focus:** Phase 02 — core-player-journey
+**Current focus:** Phase 02.1 — real-game-data-research
 
 ## Current Position
 
-Phase: 3
-Plan: Not started
-Status: Phase complete — ready for verification
+Phase: 02.1 (real-game-data-research) — EXECUTING
+Plan: 2 of 5
+Status: Ready to execute
 Last activity: 2026-04-10
 
 Progress: [░░░░░░░░░░] 0%
@@ -60,6 +60,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 02-core-player-journey P01 | 3 | 2 tasks | 7 files |
 | Phase 02-core-player-journey P02 | 3 | 2 tasks | 4 files |
 | Phase 02-core-player-journey P03 | 3 | 2 tasks | 5 files |
+| Phase 02.1 P01 | 2 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -82,6 +83,8 @@ Recent decisions affecting current work:
 - [Phase 02-core-player-journey]: Combat tutorial pages use identical frontmatter schema with triangular cross-linking via relatedPages
 - [Phase 02-core-player-journey]: Chapter prev/next navigation driven by sidebar order in config.ts; only chapter 1 sets prev:false
 - [Phase 02-core-player-journey]: Sidebar sub-group pattern with collapsed:false for combat tutorials under beginner section
+- [Phase 02.1]: combat-defense.md title changed from 防禦與格擋 to 防禦與招架 to reflect Parry as the real core mechanic
+- [Phase 02.1]: All three combat guide pages now use correct PC keybindings: Ctrl for block, Alt for dodge (was Q and Space in placeholders)
 
 ### Roadmap Evolution
 
@@ -98,6 +101,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-10T12:55:34.106Z
-Stopped at: Phase 02.1 context gathered
-Resume file: .planning/phases/02.1-real-game-data-research/02.1-CONTEXT.md
+Last session: 2026-04-10T13:59:24.519Z
+Stopped at: Completed 02.1-01-PLAN.md
+Resume file: None
