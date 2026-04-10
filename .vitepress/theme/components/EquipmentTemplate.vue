@@ -77,6 +77,7 @@
         >
           <div class="build-name">{{ build.name }}</div>
           <div class="build-description">{{ build.description }}</div>
+          <a v-if="build.characterLink" :href="withBase(build.characterLink)" class="build-character-link">查看適用職業</a>
         </div>
       </div>
     </div>
@@ -152,7 +153,7 @@ const { frontmatter } = useData()
 }
 
 .build-name {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--vp-c-text-1);
   margin-bottom: 4px;
@@ -161,5 +162,12 @@ const { frontmatter } = useData()
 .build-description {
   font-size: 14px;
   color: var(--vp-c-text-2);
+}
+
+.build-character-link {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--vp-c-brand-1);
 }
 </style>
