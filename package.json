@@ -9,6 +9,7 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
+    "sharp": "^0.34.5",
     "vitepress": "^1.6.4"
   }
 }
