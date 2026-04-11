@@ -10,7 +10,7 @@
     <div class="character-image template-section">
       <img
         v-if="frontmatter.image"
-        :src="frontmatter.image"
+        :src="withBase(frontmatter.image)"
         :alt="frontmatter.name ?? ''"
       />
       <div v-else class="character-image-placeholder">

@@ -14,7 +14,7 @@
     <div class="boss-image template-section">
       <img
         v-if="frontmatter.image"
-        :src="frontmatter.image"
+        :src="withBase(frontmatter.image)"
         :alt="frontmatter.name ?? ''"
       />
       <div v-else class="boss-image-placeholder">
