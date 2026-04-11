@@ -89,14 +89,14 @@ Plans:
 **Goal:** 8 個現有 image: null 頁面（3 角色、4 裝備、1 Boss）補上從 Fextralife 下載並轉為 WebP 的實際圖片；同時修復 3 個 Vue 模板缺失的 withBase() bug；通過 npm run docs:build + docs:preview 視覺驗證
 **Requirements**: D-01, D-02, D-03, D-04, D-05, D-06, D-07, D-08, D-09, D-10, withBase-bug-fix
 **Depends on:** Phase 3
-**Plans:** 4/5 plans executed
+**Plans:** 5/5 plans complete
 
 Plans:
 - [x] 03.1-01-PLAN.md — Wave 0 infra: sharp devDep, scripts/convert-images.cjs, scripts/verify-images.mjs, public/images/ tree
 - [x] 03.1-02-PLAN.md — Wave 1 download 8 PNGs from Fextralife + convert to WebP via sharp (depends on 01)
 - [x] 03.1-03-PLAN.md — Wave 2 update 8 Markdown frontmatter image: null -> /images/{cat}/{slug}.webp (depends on 02)
 - [x] 03.1-04-PLAN.md — Wave 2 fix withBase() :src binding in 3 Vue templates (depends on 01, parallel with 03)
-- [ ] 03.1-05-PLAN.md — Wave 3 docs:build + full verify-images harness + human visual smoke + attribution commit (depends on 03, 04)
+- [x] 03.1-05-PLAN.md — Wave 3 docs:build + full verify-images harness + human visual smoke + attribution commit (depends on 03, 04)
 
 ### Phase 4: Boss Guides & Advanced Combat
 **Goal**: 玩家可以查閱每個 Boss 的詳細攻略與高難度挑戰技巧，頁面串連相關裝備與區域
