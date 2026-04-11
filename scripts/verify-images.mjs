@@ -106,14 +106,30 @@ function checkTemplates() {
 
 // --- Dimension 5: dist/ build output ---
 function checkDist() {
-  console.log('\n[--dist] Dimension 5: .vitepress/dist/my-game/images/**/*.webp exists');
-  // VitePress writes to .vitepress/dist by default; base:'/my-game/' nests under /my-game/.
-  const distBase = path.join('.vitepress', 'dist', 'my-game', 'images');
+  console.log('\n[--dist] Dimension 5: .vitepress/dist/images/**/*.webp exists + HTML base-prefix check');
+  // VitePress writes to .vitepress/dist/ with a flat layout. The `base: '/my-game/'`
+  // config is a URL prefix applied at runtime (served by GitHub Pages from the repo path),
+  // NOT a directory prefix in the dist tree.
+  const distBase = path.join('.vitepress', 'dist', 'images');
   if (!fs.existsSync(distBase)) { fail(`DIST MISSING: ${distBase}`); return; }
   for (const t of IMAGE_TARGETS) {
-    const distFile = path.join('.vitepress', 'dist', 'my-game', t.webp.replace(/^public\//, ''));
+    const distFile = path.join('.vitepress', 'dist', t.webp.replace(/^public\//, ''));
     if (!fs.existsSync(distFile)) { fail(`DIST FILE MISSING: ${distFile}`); continue; }
     ok(`dist: ${distFile}`);
+  }
+  // Verify each HTML page references the base-prefixed URL `/my-game/images/...`
+  // (i.e., withBase() was applied) and NOT the bare `/images/...` path.
+  for (const t of IMAGE_TARGETS) {
+    const htmlFile = path.join('.vitepress', 'dist', t.md.replace(/\.md$/, '.html'));
+    if (!fs.existsSync(htmlFile)) { fail(`DIST HTML MISSING: ${htmlFile}`); continue; }
+    const html = fs.readFileSync(htmlFile, 'utf8');
+    const expectedUrl = '/my-game/' + t.webp.replace(/^public\//, '');
+    if (!html.includes(expectedUrl)) { fail(`HTML missing base-prefixed URL: ${htmlFile} expected to contain ${expectedUrl}`); continue; }
+    // Negative: bare /images/... for this specific slug is a regression.
+    const bareUrl = '/' + t.webp.replace(/^public\//, '');
+    const bareRegex = new RegExp(`src="${bareUrl.replace(/[/.]/g, '\\$&')}"`);
+    if (bareRegex.test(html)) { fail(`HTML contains bare (non-base-prefixed) URL: ${htmlFile} has ${bareUrl}`); continue; }
+    ok(`html: ${htmlFile} references ${expectedUrl}`);
   }
 }
 
