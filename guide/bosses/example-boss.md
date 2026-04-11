@@ -8,7 +8,7 @@ weakness:
   - 掌擊（Force Palm）— 武器紅光時使用
 area: 埃爾南德地區（Hernand）
 areaLink: /guide/maps/example-area
-image: null
+image: /images/bosses/example-boss.webp
 drops:
   - name: 主之劍（Sword of the Lord）
     link: /guide/equipment/example-equipment

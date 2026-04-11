@@ -4,7 +4,7 @@ name: 黛米安（Damiane）
 classType: 攻擊型
 mainWeapon: 長劍 / 手槍 / 大劍 / 長槍
 recommendedLevel: 第三章解鎖
-image: null
+image: /images/characters/damiane.webp
 skills:
   - name: Smiting Strike
     level: 1

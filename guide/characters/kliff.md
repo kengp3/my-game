@@ -4,7 +4,7 @@ name: 麥克道夫（Kliff Macduff）
 classType: 萬能型
 mainWeapon: 劍盾 / 大劍 / 長槍 / 弓 / 雙持
 recommendedLevel: 遊戲開始即可玩
-image: null
+image: /images/characters/kliff.webp
 skills:
   - name: Armed Combat
     level: 預設

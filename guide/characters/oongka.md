@@ -4,7 +4,7 @@ name: 烏卡（Oongka）
 classType: 力量型
 mainWeapon: 雙持巨斧 / 大錘
 recommendedLevel: 第七章解鎖
-image: null
+image: /images/characters/oongka.webp
 skills:
   - name: Scatter Shot
     level: 1
