@@ -2,7 +2,7 @@
 layout: doc
 name: 狼之劍（Sword of the Wolf）
 rarity: 精良
-image: null
+image: /images/equipment/sword-of-the-wolf.webp
 stats:
   - name: 武器類型
     value: "單手劍"

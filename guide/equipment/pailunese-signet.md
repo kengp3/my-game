@@ -2,7 +2,7 @@
 layout: doc
 name: 派盧內斯印戒（Pailunese Signet）
 rarity: 精良
-image: null
+image: /images/equipment/pailunese-signet.webp
 stats:
   - name: 飾品類型
     value: "戒指（Ring）"

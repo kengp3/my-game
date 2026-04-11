@@ -2,7 +2,7 @@
 layout: doc
 name: 灰狼皮甲（Grey Wolf Leather Armor）
 rarity: 普通
-image: null
+image: /images/equipment/grey-wolf-leather-armor.webp
 stats:
   - name: 防具類型
     value: "胸甲（Chest Armor）"

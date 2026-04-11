@@ -2,7 +2,7 @@
 layout: doc
 name: 主之劍（Sword of the Lord）
 rarity: 獨特
-image: null
+image: /images/equipment/example-equipment.webp
 stats:
   - name: 武器類型
     value: "單手劍"
